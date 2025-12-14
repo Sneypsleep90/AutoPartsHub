@@ -1,0 +1,48 @@
+# Go
+**/vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go modules
+**/go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+
+# Логи
+*.log
+logs/
+temp/
+tmp/
+
+# БД
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
+
+# Секреты
+.env
+.env.local
+.env.*.local
+
+# Тестирование
+coverage/
+*.coverprofile
+
+# Макос
+**/.DS_Store
